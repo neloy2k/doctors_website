@@ -1,0 +1,638 @@
+:root{
+  --primary_color:#44B39E;
+  --secondary_color:#222;
+  --text_color:#767676;
+  --color_white:#ffff;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* contact_section start */
+.d2c_contact{
+  margin: 20px 0;
+}
+.d2c_contact_icon{
+  color:var(--primary_color) ;
+}
+.d2c_contact_details a{
+  color: var(--secondary_color);
+  font-size: 14px;
+}
+/* contact_section End */
+/* header start */
+.d2c_line{
+  color: var(--secondary_color);
+  opacity: 20%;
+  margin: 0;
+}
+.nav-link{
+  font-weight: bolder;
+}
+.navbar-nav .nav-link.active{
+  color: var(--primary_color);
+  border-bottom: 3px solid var(--primary_color);
+}
+.navbar-toggler{
+  background: var(--primary_color);
+}
+.navbar ul li{
+    margin: 0 10px;
+}
+
+/* header end */
+/* hero section start */
+.d2c_hero_section{
+  background: url(../images/hero_section/hero_background_one.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+}
+.row_main span{
+  position: relative;
+  z-index: 1;
+}
+.row_main span::before{
+  content:'';
+  position: absolute;
+  background: rgba(68, 179, 158, 0.31);
+  width: 275px;
+  height: 21px;
+  z-index: -1;
+  top: 61%;
+  left: 3%;
+}
+.d2c_details{
+  color: var(--text_color);
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.d2c_hero_title{
+  color: var(--secondary_color);
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.hero_image{
+  background: url(../images/hero_section/hero_background_two.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  border-radius: 0px 100px 100px 100px;
+  border-top: 3px dotted #2aff86;;
+  border-right: 3px dotted #2aff86;;
+  border-left: 3px dotted #2aff86;;
+}
+.d2c_button{
+  border-radius: 59px;
+  background-color: var(--secondary_color);
+  font-weight: 500;
+  font-size: 15px; 
+  border-radius: 10px;
+  color: var(--color_white);
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 38px;
+}
+
+.d2c_button:hover{
+  background: var(--primary_color);
+}
+.line_bottom{
+  margin: 0;
+  border: 1px dashed #FE6D73;
+  width: 88%;
+}
+/* hero section end */
+
+/* about seciton start */
+.d2c_about{
+  background-image: url(../images/about/about_bg.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 120px 0;
+}
+.title_left{
+  transform: rotate(269deg);
+  color: #EDEDED;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: -4%;
+  bottom: -68%;
+}
+.d2c_about_title{
+  color: var(--primary_color);
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+.d2c_about_image{
+  border: 1px dashed  #FE6D73;
+  border-radius: 30px 150px;
+}
+.d2c_about_model{
+  border-radius: 30px 150px;
+  width: 100%;
+}
+.d2c_about_title span{
+  position: relative;
+  z-index: 1;
+}
+.d2c_about_title span::before{
+  content:'';
+  position: absolute;
+  background: rgba(68, 179, 158, 0.31);
+  width: 108px;
+  height: 19px;
+  z-index: -1;
+  top: 61%;
+  left: 3%;
+}
+.d2c_doctor_category{
+  color: var(--secondary_color);
+  font-size: 32px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+/* about seciton end */
+
+/* Fancybox start */
+
+.d2c_gallery{
+  background: url(../images/gallery/gallery_background.png),#FEF5F0;
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 120px 0;
+}
+.d2c_gallery_main{
+  border-radius: 30px 150px 30px 150px;
+}
+.gallery_title span{
+  position: relative;
+  z-index: 1;
+}
+.gallery_title span::before{
+  content:'';
+  position: absolute;
+  background: rgba(68, 179, 158, 0.31);
+  width: 169px;
+  height: 19px;
+  z-index: -1;
+  top: 61%;
+  left: 3%;
+}
+/* nav-tab start */
+.nav-pills .nav-link{
+  color: var(--secondary_color)
+}
+.nav-pills .nav-link.active{
+  color: var(--primary_color);
+  background: none;
+}
+
+/* nav-tab end*/
+.card_one{
+  border-radius: 30px 0px 0px 0px;
+}
+.card_two{
+  border-radius: 0px 0px 0px 150px;
+}
+.card_five{
+  border-radius: 0px 150px 0px 0px;
+}
+.card_six{
+  border-radius: 0px 0px 30px 0px;
+}
+/* Fancybox end */
+
+/* testimonil start */
+.d2c_testimonial{
+  background: url(../images/testimonial/testimonial_backgrond.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 50px 0 120px;
+  margin-bottom: 100px;
+  
+}
+.d2c_testimonial_title span{
+  position: relative;
+  z-index: 1;
+}
+.d2c_testimonial_title span::before{
+  content:'';
+  position: absolute;
+  background: rgba(68, 179, 158, 0.31);
+  width: 146px;
+  height: 19px;
+  z-index: -1;
+  top: 61%;
+  left: 3%;
+}
+
+.d2c_card{
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #D9D9D9;
+  background: var(--color_white);
+}
+.d2c_testimonial_name{
+  color: var(--primary_color);
+  font-size: 24px;
+  font-weight: 700;
+}
+.d2c_testimonial_designation{
+  color: #777;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.slick-slider{
+  margin: 0 auto;
+}
+.slick-slider .d2c_prev {
+  color: var(--primary_color);
+  position: absolute;
+  left: 47%;
+  bottom: -23%;
+  width: 30px;
+  height: 30px;
+  border: 3px solid var(--primary_color);
+  border-radius: 30px;
+  background: none;
+  padding: 0;
+  
+}
+.slick-slider .d2c_next{
+  color: var(--primary_color);
+  position: absolute;
+  left: 51%;
+  bottom: -23%;
+  width: 30px;
+  height: 30px;
+  border: 3px solid var(--primary_color);
+  border-radius: 30px;
+  background: none;
+  padding: 0;
+}
+.slick-slide{
+  margin: 0 15px;
+}
+
+/* testimonial end */
+
+/* doctor section start */
+
+.d2c_doctors{
+  background: url(../images/Doctors/doctors_background.png),#FEF5F0;
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 50px 0 200px;
+}
+.d2c_doctor_card{
+  padding-top: 14%
+}
+.d2c_doctors .d2c_profile {
+  object-fit: cover;
+  border-radius: 120px 0px;
+  color: var(--primary_color);
+  width: 100%;
+  height: 361px;
+  background: rgba(68, 179, 158, 0.20);
+  position: relative;
+}
+.card_icon{
+  text-decoration: none;
+  color: var(--secondary_color);
+}
+.d2c_doctors .d2c_profile:hover {
+  background-color: #44B39E;
+  .d2c_name,
+  .d2c_designation,
+  .d2c_wish,
+  .d2c_description,
+  .card_icon{
+      color:var(--color_white); 
+  }
+}
+.d2c_doctors .d2c_profile_image {
+  position: absolute;
+  top: -162px;
+  left: 20px;
+  height: 360px;
+  width: 92%;
+}
+.d2c_doctors .d2c_profile_details {
+  padding-top: 230px;
+}
+.d2c_profile_details .d2c_name {
+  color: var(--secondary_color);
+  font-size: 30px;
+  font-weight: 700;
+}
+.d2c_profile_details .d2c_designation {
+  color: #8E8E8E;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.d2c_profile_details .d2c_description {
+  color: #767676;
+  font-size: 18px;
+  font-weight: 400;
+  width: 94%;
+}
+.d2c_profile_details .d2c_icon_wrapper i{
+  margin: 0 10px ;
+}
+/* doctor section end */
+
+/* footer css start */ 
+.d2c_content{
+  background: #D9E8E0;
+  border-radius: 10px;
+  width: auto;
+  bottom: -42%;
+  padding: 30px;
+}
+.d2c_contact_title{
+  font-size: 42px; 
+  font-weight: 700;
+  color: var(--primary_color);
+  text-transform: uppercase;
+}
+.d2c_button1{
+  background-color: var(--primary_color);
+}
+.d2c_footer_section {
+  background: linear-gradient(0deg, rgba(51, 51, 51, 0.98) 0%, rgba(51, 51, 51, 0.98) 100%);
+  padding: 100px 0 20px;
+}
+.d2c_footer_text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #B8B8B8;
+  text-decoration: none;
+}
+.d2c_footer_section .social_link a {
+  border-radius: 26px;
+  color: var(--primary_color);
+  color: var(--color_white);
+  padding: 10px 13px;
+  margin-top: 10px;
+}
+.d2c_doctor_card {
+  padding-top: 14%;
+}
+/* footer end */
+
+
+/* responsive start */
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  /* contact sectoin start */
+  .d2c_contact{
+    margin: 10px 0;
+  }
+  /* contact sectoin end */
+  /* hero section start */
+  .d2c_hero_section{
+    padding: 50px 0;
+  }
+  
+  .d2c_hero_title {
+    font-size: 37px;
+  }
+  .row_main span::before {
+    display: none;
+  }
+  .hero_image{
+    margin-top: 20px;
+    }
+  /* hero section end */
+  /* about section start */
+  .d2c_about{
+    padding: 50px 0;
+  }
+  .d2c_about_title{
+    font-size: 40px;
+  }
+  .d2c_doctor_category {
+    font-size: 29px;
+    margin: 20px 0;
+  }
+  .d2c_about_title span::before {
+    display: none;
+  } 
+  /* about seciton end */
+  /* gallery section */
+  .d2c_gallery{
+    padding: 50px 0;
+  }
+  .gallery_title span::before {
+    display: none;
+  }
+  .card_one,.card_two,.card_three,.card_four,.card_five,.card_six{
+    border-radius: 20px;
+  }
+  /* doctors dection start*/
+  .d2c_doctors{
+    padding: 20px 0 150px ;
+  }
+  .d2c_doctor_card {   
+     padding: 45% 0 7%;
+  }
+  .d2c_content{
+    padding: 10px 0;
+    margin: 20px;
+    bottom: -9%;
+  }
+  
+  /* doctors dection end*/
+  .d2c_testimonial{
+    padding: 0 0 50px;
+    margin-bottom: 0;
+  }
+  .d2c_testimonial_heading span::before {
+    display: none;
+  }
+  .d2c_contact_title{
+    font-size: 22px;
+  }
+
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px) { 
+
+  /* contact sectoin start */
+  .d2c_contact{
+    margin: 10px 0;
+  }
+  /* contact sectoin end */
+
+  /* hero secion start */
+  .d2c_hero_title {
+    font-size: 40px;
+  }
+  .d2c_hero_section{
+    padding: 50px 0;
+  }
+  .row_main span::before {
+    display: none;
+  }
+  .hero_image{
+    margin-top: 20px;
+  }
+  /* abour section start */
+  .d2c_about{
+    padding: 50px 0;
+  }
+  .d2c_about_title{
+    font-size: 40px;
+  }
+  .d2c_doctor_category {
+    font-size: 29px;
+    margin: 20px 0;
+  }
+  /* abour section end*/
+
+  /* gallery section start*/
+  .d2c_gallery{
+    padding: 50px 0;
+  }
+  .card_one,.card_two,.card_three,.card_four,.card_five,.card_six{
+    border-radius: 20px;
+  }
+  .gallery_title span::before {
+    display: none;
+  }
+  /* gallery section end*/
+
+ /* testimoniL Start */
+ .d2c_testimonial{
+  padding: 50px 0;
+  margin-bottom: 0;
+  }
+  
+  /* testimonila End */
+  /* Doctor section start*/
+  .d2c_footer_main a{
+  text-decoration: none;
+  }
+  .d2c_doctor_card {
+    padding-top: 36%;
+}
+ /* Doctor section end*/
+ /* content start */
+ .d2c_content{
+  margin: 0 4%;
+  bottom: -11%;
+}
+.d2c_contact_title {
+  font-size: 30px;
+}
+ /* content end */
+}
+ 
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* hero section start */
+  .d2c_hero_section{
+    padding: 50px 0;
+  }
+  .hero_image{
+    margin-top: 20px;
+  }
+  .row_main span::before {
+    display: none;
+  }
+  /* doctor section start */
+  .d2c_doctor_card {
+    padding-top: 26%;
+  }
+  .d2c_doctors .d2c_profile_image {
+    top: -143px;
+    left: 47px;
+  }
+  .d2c_doctors {
+    padding: 20px 0 250px;
+  }
+  
+    /* gallery section start*/
+  .card_one,.card_two,.card_three,.card_four,.card_five,.card_six{
+    border-radius: 20px;
+  }
+  /* testimonial start */
+  .d2c_testimonial {
+    padding: 60px 0;
+}
+  .slick-slider .d2c_prev {
+    left: 47%;
+  }
+  .slick-slider .d2c_next{
+    left: 53%;
+  }
+  /* testimonial end */
+   /* content start  */
+   .d2c_content{
+    margin: 0 4%;
+    bottom: -15%;
+  }
+  .d2c_contact_title{
+    font-size: 30px;
+  }
+  
+   /* content end */
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .d2c_doctors{
+    padding: 20px 0 150px;
+  }
+  .d2c_doctors .d2c_profile_image {
+    position: absolute;
+    top: -81px;
+    left: 20px;
+    height: 362px;
+    width: 89%;
+  }
+    .d2c_doctors .d2c_profile_details {
+      padding-top: 200px;
+  }
+  .d2c_profile_details .d2c_name {
+    font-size: 23px;
+}
+  .d2c_doctor_card {
+    padding-top: 11%;
+  }
+  .row_main span::before {
+    display: none;
+  }
+  .d2c_content {
+    padding: 10px;
+    bottom: -38%;
+  }
+.d2c_contact_title {
+    font-size: 38px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .row_main span::before {
+    display: none;
+  }
+  .d2c_doctors .d2c_profile_image {
+    position: absolute;
+    top: -123px;
+    left: 11px;
+    height: 360px;
+    width: 92%;
+  }
+  .d2c_doctor_card {
+    padding-top: 11%;
+  }
+}
+
+
